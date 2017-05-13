@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>First JS with Yitzy</title>
+</head>
+<body>
+	<h1>yitzy's ferenheight to selsius converterr</h1>
+	<h2>SHoutout to Avi for Helping</h2> 
+	<input type="text"id="user"></input>
+
+	<button id="search" onclick= "tempconvert();">convert</button>
+	</br>
+	<p id= "result"> Result.</p>
+<script>
+	//var a = 10;
+	/*var b = 15;
+	var c = a + b;
+	alert(a+ " + b + " = " + c);*/
+	function tempconvert(){
+		var f = document.getElementById("user").value;
+		//f = f.value;
+		var c = (f-32)*5/9;
+		document.getElementById("result").innerHTML = c;
+	}
+</script>
+</body>
+</html>
+
